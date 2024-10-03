@@ -12,13 +12,17 @@ import { FormsModule } from '@angular/forms';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { provideHttpClient } from '@angular/common/http';
 import { NzButtonModule } from 'ng-zorro-antd/button';
+import { HomeComponent } from './home/home.component';
+import { RegisterComponent } from './register/register.component';
 
 registerLocaleData(en);
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainComponent
+    MainComponent,
+    HomeComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,

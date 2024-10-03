@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Button, Flex } from 'antd';
 
 @Component({
   selector: 'main-component',
@@ -7,5 +8,5 @@ import { Component } from '@angular/core';
 })
 
 export class MainComponent {
-        
+  button_title = 'Submit Button';   
 }

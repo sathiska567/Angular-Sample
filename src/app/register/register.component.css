@@ -1,0 +1,53 @@
+.btn {
+        border-radius: 0;
+        margin-left: 20px;
+}
+
+.left-section {
+        justify-content: center;
+        align-items: center;
+        /* display: flex; */
+        /* background-color: cadetblue; */
+        padding-top: 14%;
+}
+
+.right-section {
+        /* background-color: cadetblue; */
+        height: 100vh;
+}
+
+.form-group {
+        padding: 2%;
+}
+
+.form-control {
+        border-left: none;
+        border-top: none;
+        border-right: none;
+        border-bottom: 1px solid #000;
+        border-radius: 0;
+}
+
+.form-control:focus {
+        border-color: #000;
+        box-shadow: none;
+}
+
+.form-check {
+        padding-left: 6%;
+}
+
+.form-btn {
+        width: 90%;
+        margin-top: 5%;
+        background-color: #0075E1;
+        color: #fff;
+        border-radius: 10px;
+
+}
+
+.signup-navigate-link {
+        text-align: left;
+        padding-left: 3%;
+        margin-top: 2%;
+}

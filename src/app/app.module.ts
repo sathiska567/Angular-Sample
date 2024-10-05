@@ -14,6 +14,9 @@ import { provideHttpClient } from '@angular/common/http';
 import { NzButtonModule } from 'ng-zorro-antd/button';
 import { HomeComponent } from './home/home.component';
 import { RegisterComponent } from './register/register.component';
+import { AdminComponent } from './admin/admin.component';
+import { AdminFeachesComponent } from './admin-feaches/admin-feaches.component';
+
 
 registerLocaleData(en);
 
@@ -22,7 +25,9 @@ registerLocaleData(en);
     AppComponent,
     MainComponent,
     HomeComponent,
-    RegisterComponent
+    RegisterComponent,
+    AdminComponent,
+    AdminFeachesComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,67 @@
+.admin-content > p {
+        color: black;
+        text-align: center;
+
+}
+      
+.right-column{
+        margin-left: -5.9%;
+        /* background-color:rgb(235, 235, 235) ; */
+        width: 80%;
+}
+
+.main-content{
+        overflow-x: hidden;
+        width: 100%;
+}
+
+.top-content{
+        background-color: rgb(23, 23, 23);
+        width: 115%;
+        height:10vh;
+}
+
+.top-content-first{
+        margin-left: 70%;
+        margin-top: 1.2%;
+}
+
+.top-content-second{
+        margin-top: 1.2%;
+        margin-left:-4%;
+}
+
+.top-content-third{
+        margin-top: 1.2%;
+        margin-left:-4%;
+}
+
+.top-content-fourth{
+        margin-top: 1.2%;
+        margin-left:-4%;
+}
+
+.top-content-bell-icon{
+        color: #fff;
+        font-size: 25px;
+        text-align: center;
+}
+
+.top-content-cart-icon{
+        color: #fff;
+        font-size: 25px;
+        text-align: center;
+}
+
+.top-content-person-icon{
+        color: #fff;
+        font-size: 25px;
+        text-align: center;
+
+}
+
+.top-content-chat-icon{
+        color: #fff;
+        font-size: 25px;
+        text-align: center;
+}

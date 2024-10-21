@@ -5,6 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { RegisterComponent } from './register/register.component';
 import { AdminComponent } from './admin/admin.component';
 import { AdminFeachesComponent } from './admin-feaches/admin-feaches.component';
+import { DashboadComponent } from './dashboad/dashboad.component';
 
 const routes: Routes = [
   { path: '', component: MainComponent }, // Default route
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'register', component: RegisterComponent },
   {path:'admin' , component:AdminComponent},
   {path:'admin_features' , component:AdminFeachesComponent},
+  {path:'dashboad' , component:DashboadComponent}
   
 
 ];

@@ -16,6 +16,7 @@ import { HomeComponent } from './home/home.component';
 import { RegisterComponent } from './register/register.component';
 import { AdminComponent } from './admin/admin.component';
 import { AdminFeachesComponent } from './admin-feaches/admin-feaches.component';
+import { DashboadComponent } from './dashboad/dashboad.component';
 
 
 registerLocaleData(en);
@@ -28,6 +29,7 @@ registerLocaleData(en);
     RegisterComponent,
     AdminComponent,
     AdminFeachesComponent,
+    DashboadComponent,
   ],
   imports: [
     BrowserModule,

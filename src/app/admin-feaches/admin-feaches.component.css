@@ -65,3 +65,42 @@
         font-size: 25px;
         text-align: center;
 }
+
+/* style second content */
+.second-content{
+        background-color:rgb(189, 189, 189);
+        width: 115%;
+        height:90vh;
+        padding: 20px;
+}
+
+.table-row{
+        height: 60px;
+}
+
+.table-div{
+        margin-left: 0px;
+        width: 100%;
+}
+
+.table-view{
+        width: 90%;
+        margin-top: 5vh;
+   
+}
+
+.id-column{
+        padding-left: 10px;
+}
+
+/* style action btn */
+.view-btn{
+ margin-right: 10px;
+}
+
+
+/* style pagination section */
+.pagination-section{
+   margin-left:55%;
+   margin-top: -6%;
+}
